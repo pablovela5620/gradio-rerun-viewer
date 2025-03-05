@@ -20,6 +20,13 @@ Rerun viewer with Gradio
 pip install gradio_rerun
 ```
 
+## Dev
+This can take a while
+```bash
+gradio cc dev
+gradio cc build
+```
+
 ## Usage
 
 ```python
@@ -386,7 +393,7 @@ bool
 <td align="left" style="width: 25%;">
 
 ```python
-dict[str, Any] | None
+dict[str, typing.Any] | None
 ```
 
 </td>
